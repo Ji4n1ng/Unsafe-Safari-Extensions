@@ -22,7 +22,7 @@ https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/
 
 由于我无法在 Safari 启动时自动运行脚本，因此我创建了一个 Automator 应用程序来帮助我。下面代码的具体流程是，打开Safari，然后在 Extension Builder 中循环并运行所有扩展（*您仍然需要手动输入每个扩展的系统密码*）。你可以下载[程序](https://github.com/Ji4n1ng/Unsafe-Safari-Extensions/raw/master/Safari%20Extensions.app.zip)，或者在 Automator 中使用下面的代码创建你自己的应用程序：
 
-> **注意:** 下面的代码只支持中文系统，如果需要英文系统下的应用程序，请看 [zachdrago/Unsafe-Safari-Extensions](https://github.com/zachdrago/Unsafe-Safari-Extensions)
+> **注意:** 下面的代码只支持中文系统，如果需要英文系统下的应用程序，请看 [zachdrago/Unsafe-Safari-Extensions](https://github.com/zachdrago/Unsafe-Safari-Extensions)
 
 ```
 tell application "Safari" to activate
